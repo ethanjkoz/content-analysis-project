@@ -19,4 +19,4 @@ In order to answer these questions there are three distinct methods that I will 
 
 
 ## Coding organization:
-All of the code labeled with a P in the front comes from MACS 30100, where I trained multiple ML models to try and fit the same data. The rest of the code files (.ipynb) were orginally designed for this project. The reddit scrapper contains the code used to scrape the data from Reddit. The new cleaning notebook contains information on how the Reddit data was scrapped. The analyses notebook contains all the analyses conducted in this paper.
+The notebook called p3_evaluation comes from my project in MACS 30100 (used the same data), where I trained multiple ML models to try and fit the same data. The rest of the code files (.ipynb) were orginally designed for this project. The reddit scrapper contains the code used to scrape the data from Reddit. The new cleaning notebook contains information on how the Reddit data was scrapped. The analyses notebook contains all the analyses conducted in this paper.
