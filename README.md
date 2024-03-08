@@ -11,8 +11,12 @@ Supplementary questions to answer main:
 
 - Are the posts from adoptees distinctly different from posts not made by adoptees in r/Adopted and r/Adoption? If the answer is no, then the main question becomes much harder to answer. This is a classification question. Because not all users say whether they are adopted or not, it is not easy to understand who is and is not an adoptee when looking at these conversations. 
 
-## (Data)[https://drive.google.com/file/d/1GRo0PJw5vDPCs83xF315R1kLHqbNGAr2/view?usp=drive_link]:
+## (Data)[https://uchicago.box.com/s/xv3pg5mjy5lpv5ydjngcgus6upjpb30g]:
 My data comes from the two largest subreddits dealing with adoption: r/Adoption and r/Adopted. The data from the former contains archived posts since its inception as a subreddit as well as more recently scraped data. r/Adopted contains only scrapes the top 1000 most recent posts (due to the limitations of my scraper; I could properly configure selenium to dynamically scrape the website, so I used an older version of reddit to gather conversations by pages). This data contains posts and comments with corresponding metadata like user, flairs, etc. Furthermore, I supplemented the r/Adoption Reddit with more posts from a Reddit archive.
 
 ## Methods:
 In order to answer these questions there are three distinct methods that I will need to employ. I will need to use ML, specifically neural networks to classify posts made by adoptees and those not made by adoptees. I will incorporate topic modeling to understand the different topics discussed in each subreddit. And then I will perform a sentiment analysis on these topics to discern whether these subreddits are more positive or negative. 
+
+
+## Coding organization:
+All of the code labeled with a P in the front comes from MACS 30100, where I trained multiple ML models to try and fit the same data. The rest of the code files (.ipynb) were orginally designed for this project. The reddit scrapper contains the code used to scrape the data from Reddit. The new cleaning notebook contains information on how the Reddit data was scrapped. The analyses notebook contains all the analyses conducted in this paper.
